@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<cs50.h>
+
+void print_num(int num);
+
+
+int main(void);
+{ int n;
+
+        do
+        {
+           n = get_int("Input a number: ");
+        }
+
+        while (n < 1 || n > 8);//if less that 0 get out?
+
+}
+void print_num(int num)
+    {
+        printf(" ");
+    }
